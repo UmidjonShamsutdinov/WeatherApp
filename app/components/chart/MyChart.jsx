@@ -4,7 +4,7 @@ import ReactApexChart from 'react-apexcharts';
 import 'apexcharts';
 
 // Define the functional component
-const MyChart = ({time, degree, degree1}) => {
+const MyChart = ({time, degree}) => {
   // Chart options and series data
 
   var options = {
