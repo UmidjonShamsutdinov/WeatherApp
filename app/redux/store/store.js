@@ -1,4 +1,4 @@
-// "use client"
+"use client"
 import { createStore } from "redux";
 import { reducer } from "../reducer/reducer";
 import storage from 'redux-persist/lib/storage'
@@ -12,7 +12,7 @@ const persistConfig = {
 
 const persistedReducer = persistReducer(persistConfig, reducer)
 
-const store = createStore(persistedReducer,)
+const store = createStore(persistedReducer)
 persistStore(store)
 
 export {store}
